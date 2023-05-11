@@ -1,5 +1,2 @@
 #!/usr/bin/python3
-import logging
-
-logging.basicConfig(level=logging.INFO)
-logging.info("#pythoniscool")
+__import__('os').write(1, '#pythoniscool\n'.encode())
